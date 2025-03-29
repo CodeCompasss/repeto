@@ -1,0 +1,100 @@
+name: Bug Report
+
+description: Report an issue encountered while using the software.
+
+labels: 
+  - kind/bug
+
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: |
+        Describe the issue you encountered in detail. Providing clear and concise information helps in addressing the issue faster.
+        If this is a security-related issue, please disclose it privately via the appropriate security channels (if applicable).
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Explain the behavior you expected from the software.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to Reproduce
+      description: Provide the steps to reproduce the issue as minimally and precisely as possible.
+    validations:
+      required: true
+
+  - type: textarea
+    id: softwareVersion
+    attributes:
+      label: Software Version
+      description: |
+        Specify the version of the software where you encountered this issue. If applicable, provide details on the branch, build, or release version.
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Details
+      description: |
+        Provide details about the environment where this issue occurred. This could include operating system, platform, cloud provider, or any other relevant context.
+      value: |
+        <details>
+        
+        ```console
+        # On Linux/MacOS:
+        $ uname -a
+        $ cat /etc/os-release
+        # paste output here
+        
+        # On Windows:
+        C:\> wmic os get Caption, Version, BuildNumber, OSArchitecture
+        # paste output here
+        ```
+        
+        </details>
+
+  - type: textarea
+    id: installTools
+    attributes:
+      label: Installation Method
+      description: Specify the installation tools or package managers used (if applicable).
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Related Dependencies or Plugins
+      description: |
+        List any plugins, modules, or dependencies (and their versions) that might relate to this issue.
+      value: |
+        <details>
+        
+        </details>
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, Errors, or Debugging Output
+      description: |
+        Provide any relevant logs, stack traces, or debugging output that can help diagnose the issue.
+      value: |
+        <details>
+        
+        ```console
+        # Paste logs or errors here.
+        ```
+        
+        </details>
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Include any other details that might help diagnose the issue.

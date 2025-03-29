@@ -1,0 +1,57 @@
+name: Failing Test
+
+description: Report continuously failing tests or jobs in the CI pipeline.
+
+labels: 
+  - kind/failing-test
+
+body:
+  - type: textarea
+    id: jobs
+    attributes:
+      label: Which jobs are failing?
+      description: |
+        Please use this template for submitting reports about tests or jobs that are continuously failing in the CI pipeline. Provide clear details so the issue can be investigated and resolved promptly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: Which tests are failing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: since
+    attributes:
+      label: Since when has it been failing?
+    validations:
+      required: true
+
+  - type: input
+    id: testgrid
+    attributes:
+      label: Link to Test Results
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for failure (if known)
+      description: |
+        If possible, provide the root cause of the failure. This can include logs, error messages, or insights into what caused the test to fail.
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Any additional information?
+      description: |
+        Include any other relevant details that could help diagnose or resolve the issue, such as changes to the environment or recent updates to the codebase.
+
+  - type: textarea
+    id: sigs
+    attributes:
+      label: Relevant Teams/Departments
+      description: |
+        If applicable, specify the teams or departments (e.g., DevOps, QA, etc.) who should be aware of or help with resolving this issue.
+      value: /team

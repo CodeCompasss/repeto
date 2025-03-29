@@ -1,0 +1,69 @@
+name: Failing Test
+
+description: Report continuously failing tests or jobs in the CI pipeline.
+
+labels: ["kind/failing-test"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Failing Test Report
+
+        Please provide details about failing tests or jobs in the CI pipeline so they can be investigated and resolved promptly.
+
+  - type: textarea
+    id: jobs
+    attributes:
+      label: Which jobs are failing?
+      description: |
+        Provide details about the CI jobs that are failing. Include relevant logs or error messages if available.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: Which tests are failing?
+      description: |
+        List the specific tests that are failing. Provide context about the module, function, or feature they belong to.
+    validations:
+      required: true
+
+  - type: textarea
+    id: since
+    attributes:
+      label: Since when has it been failing?
+      description: |
+        Provide a rough timeline for when the failures started occurring. This helps identify potential changes that may have introduced the issue.
+    validations:
+      required: true
+
+  - type: input
+    id: testgrid
+    attributes:
+      label: Link to Test Results
+      description: |
+        If available, provide a link to the CI logs, test reports, or dashboards where the failures can be reviewed.
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for failure (if known)
+      description: |
+        If you have insights into why the tests are failing, please share them. This can include logs, error messages, or recent code changes.
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Any additional information?
+      description: |
+        Include any other relevant details that could help diagnose or resolve the issue, such as changes to the environment or recent updates to the codebase.
+  
+  - type: textarea
+    id: sigs
+    attributes:
+      label: Relevant Teams/Departments
+      description: |
+        If applicable, specify the teams or departments (e.g., DevOps, QA, etc.) who should be aware of or help with resolving this issue.
+      value: /team

@@ -1,0 +1,78 @@
+name: Feature Request
+
+description: Suggest a new feature or enhancement for the software.
+
+labels: ["enhancement", "new"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Thank you for opening a feature request.
+
+        This issue tracker is reserved for feature requests relating to the core functionality of the software.
+
+        For general usage questions, please refer to the software's official documentation or community forums.
+
+        ## If your feature request relates to:
+        * **Software Providers or Specific Integrations**: Please contact the respective support team or open a new request in their respective repositories.
+  
+  - type: textarea
+    id: software-version
+    attributes:
+      label: Software Version
+      description: Run `<software-name> --version` to show the version, and paste the result below. If you're not using the latest version, please check if something related to your request has already been implemented in a later version.
+      render: shell
+      placeholder: ...output of `<software-name> --version`...
+    validations:
+      required: true
+
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use Cases
+      description: |
+        To properly evaluate a feature request, it's essential to understand the use cases.
+        Please describe below the _end goal_ you are trying to achieve that has led you to request this feature.
+        Focus on the problem, not the solution—details on the problem will help us better understand your request.
+    validations:
+      required: true
+
+  - type: textarea
+    id: attempted-solutions
+    attributes:
+      label: Attempted Solutions
+      description: |
+        If you've already tried to solve the problem with the existing features and found limitations, please describe them here.
+        Ideally, provide real examples of configurations, commands, and the results. Please omit sensitive information like passwords.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: |
+        If you have a suggestion for how to address the problem through a new feature or change to the software, please describe it here.
+        Including specific examples of configuration files, commands, or user interfaces would be helpful.
+        If you're unsure about some aspects, don't worry! The development team will evaluate and suggest modifications if needed.
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: |
+        Are there any related issues (either open or closed) that could provide context for your feature request? Please list them here.
+        For example:
+        ```
+          - #123
+        ```
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Note:** If the submit button is disabled, please ensure you've filled out all required fields, including the **Title** of the request.
