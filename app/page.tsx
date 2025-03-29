@@ -1,11 +1,11 @@
 "use client";
 
 import { useState } from 'react';
-import Navbar from '../../components/Navbar';
-import OpportunityList from '../../components/repeto/OpportunityList';
-import FilterSection from '../../components/repeto/FilterSection';
-import TabSection from '../../components/repeto/TabSection';
-import Footer from '../../components/Footer';
+import Navbar from '../components/Navbar';
+import OpportunityList from '../components/repeto/OpportunityList';
+import FilterSection from '../components/repeto/FilterSection';
+import TabSection from '../components/repeto/TabSection';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("Latest");
