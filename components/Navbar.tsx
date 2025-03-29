@@ -1,14 +1,14 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Navbar = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen((prevState) => !prevState);
-  };
+  // const toggleDropdown = () => {
+  //   setDropdownOpen((prevState) => !prevState);
+  // };
 
   const toggleMenu = () => {
     setMenuOpen((prevState) => !prevState);
@@ -19,17 +19,17 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex items-center md:justify-between mx-auto py-5">
         {/* Logo Section */}
         <div className="flex flex-row font-poppins font-bold text-[26px] z-10 items-center relative text-black">
-          Logo
+          Repeto
         </div>
 
         {/* Links for Desktop */}
         <div className="hidden md:flex justify-around gap-8 text-[17.5px] font-inter text-black">
-          <Link href="/">Home</Link>
-          <Link href="/Gallery">Gallery</Link>
-          <Link href="/Calender">Calendar</Link>
+          {/* <Link href="/">Home</Link> */}
+          {/* <Link href="/Gallery">Gallery</Link>
+          <Link href="/Calender">Calendar</Link> */}
 
           <div className="relative">
-            <button
+            {/* <button
               onClick={toggleDropdown}
               className="flex items-center focus:outline-none"
             >
@@ -46,9 +46,9 @@ const Navbar = () => {
                   clipRule="evenodd"
                 />
               </svg>
-            </button>
+            </button> */}
 
-            {dropdownOpen && (
+            {/* {dropdownOpen && (
               <div className="absolute mt-2 w-40 bg-white border rounded-md shadow-lg z-50">
                 <Link
                   href="/Newsletter"
@@ -69,7 +69,7 @@ const Navbar = () => {
                   Reviews
                 </Link>
               </div>
-            )}
+            )} */}
           </div>
         </div>
 
@@ -93,13 +93,13 @@ const Navbar = () => {
         </button>
 
         {/* Repeto Button */}
-        <button>
-        <Link href="/repeto">
+        {/* <button>
+        <Link href="/">
           <div className="w-[117px] h-[45px] bg-[#000000] rounded-3xl text-white font-davidLibre hidden md:flex justify-center items-center text-[15.5px] hover:bg-white drop-shadow-lg hover:text-black">
-            Repeto
+            Home
           </div>
         </Link>
-        </button>
+        </button> */}
       </div>
 
       {/* Dropdown Menu for Small Screens */}
@@ -108,7 +108,7 @@ const Navbar = () => {
           menuOpen ? "block" : "hidden"
         } md:hidden absolute left-0 top-20 w-full space-y-2 bg-white text-center shadow-lg z-40 py-4`}
       >
-        <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
+        {/* <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
           Home
         </Link>
         <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
@@ -116,9 +116,9 @@ const Navbar = () => {
         </Link>
         <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
           Calendar
-        </Link>
+        </Link> */}
         <div className="relative text-center">
-          <button
+          {/* <button
             onClick={toggleDropdown}
             className="flex items-center justify-center w-full px-4 py-2 text-black focus:outline-none"
           >
@@ -135,9 +135,9 @@ const Navbar = () => {
                 clipRule="evenodd"
               />
             </svg>
-          </button>
+          </button> */}
 
-          {dropdownOpen && (
+          {/* {dropdownOpen && (
             <div className="absolute  w-full bg-white border rounded-md shadow-lg z-50">
               <Link
                 href="/option1"
@@ -158,15 +158,15 @@ const Navbar = () => {
                 Option 3
               </Link>
             </div>
-          )}
+          )} */}
         </div>
-        <button>
-        <Link href="/repeto">
+        {/* <button>
+        <Link href="/https://codecompasss.github.io/code_compass_india/">
           <div className="w-[117px] h-[45px] bg-[#000000] rounded-3xl text-white font-davidLibre flex justify-center items-center text-[15.5px] hover:bg-white drop-shadow-lg hover:text-black">
-          Repeto
+          Home
           </div>
         </Link>
-        </button>
+        </button> */}
       </div>
     </nav>
   );
