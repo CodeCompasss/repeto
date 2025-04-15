@@ -17,7 +17,7 @@ export default function OpportunityCard({ opportunity }: OpportunityCardProps) {
           <div className="flex items-center space-x-2">
             <CalendarDays className="w-5 h-5 text-white" />
             <div>
-              <p className="text-gray-200 text-xs">Last Date</p>
+              <p className="text-gray-200 text-xs">Approximate Date</p>
               <p className="text-white font-medium">{opportunity.lastDateToApply}</p>
             </div>
           </div>
