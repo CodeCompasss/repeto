@@ -62,6 +62,136 @@
         "applicationLink": "https://sih.gov.in/2025",
         "category": "Latest",
         "postedDate": "2024-01-16"
-      }
+      },
+      {
+  "hackathons": [
+    {
+      "id": "HAC004",
+      "title": "Mercuria Hackathon Singapore 2025",
+      "type": "Hackathon",
+      "department": ["CSE", "IT", "Data Science", "AI/ML"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "All",
+      "year": ["2nd year", "3rd year", "4th year"],
+      "lastDateToApply": "03-07",
+      "stipend": "Internship opportunities and prizes",
+      "eligibility": "Students in CS, Data Science, or related fields",
+      "description": "A 48-hour in-person hackathon at Marina Bay Sands, Singapore, focusing on global shipping, digital security, and environmental sustainability.",
+      "requirements": [
+        "Individual applications only",
+        "Teams formed by organizers",
+        "Participation in person"
+      ],
+      "applicationLink": "https://hackathon.mercuria.com/singapore-2025/",
+      "category": "International",
+      "postedDate": "2024-12-01"
+    },
+    {
+      "id": "HAC005",
+      "title": "MEGA Hackathon 2025",
+      "type": "Hackathon",
+      "department": ["CSE", "IT", "Economics", "Infrastructure"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "All",
+      "year": ["1st year", "2nd year", "3rd year", "4th year"],
+      "lastDateToApply": "03-10",
+      "stipend": "$291,250 in prizes",
+      "eligibility": "Ages 13+ worldwide",
+      "description": "An online hackathon integrating computer science, STEM, economics, and infrastructure, aimed at advancing human development.",
+      "requirements": [
+        "Team size: Flexible",
+        "Open to high school and college students",
+        "Focus on sustainable development"
+      ],
+      "applicationLink": "https://mega-hackathon-2025.devpost.com/",
+      "category": "Global",
+      "postedDate": "2025-01-01"
+    },
+    {
+      "id": "HAC006",
+      "title": "Global AI Hackathon 2025",
+      "type": "Hackathon",
+      "department": ["CSE", "AI/ML", "Education"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "All",
+      "year": ["1st year", "2nd year", "3rd year", "4th year"],
+      "lastDateToApply": "02-27",
+      "stipend": "Trip to MIT AI & Education Summit",
+      "eligibility": "All ages worldwide",
+      "description": "A virtual hackathon hosted by MIT RAISE, encouraging participants to build AI apps aligned with the UN Sustainable Development Goals.",
+      "requirements": [
+        "Use of MIT App Inventor",
+        "Focus on social impact",
+        "Submission of AI-based applications"
+      ],
+      "applicationLink": "https://raise.mit.edu/events/global-ai-hackathon-2025/",
+      "category": "Educational",
+      "postedDate": "2025-02-01"
+    },
+    {
+      "id": "HAC007",
+      "title": "NextStep Hacks 2025",
+      "type": "Hackathon",
+      "department": ["CSE", "IT", "Accessibility"],
+      "courseLevel": ["UG"],
+      "exclusive": "All",
+      "year": ["1st year", "2nd year", "3rd year", "4th year"],
+      "lastDateToApply": "03-14",
+      "stipend": "$419,600 in prizes",
+      "eligibility": "Students aged 13-20 worldwide",
+      "description": "An online hackathon focusing on creating solutions that empower people with disabilities, promoting inclusivity and accessibility.",
+      "requirements": [
+        "Team size: Flexible",
+        "Projects aimed at assistive technologies",
+        "Participation in workshops and mentor sessions"
+      ],
+      "applicationLink": "https://nextstep2025.devpost.com/",
+      "category": "Inclusive",
+      "postedDate": "2025-03-01"
+    },
+    {
+      "id": "HAC008",
+      "title": "World Engineering Day Hackathon 2025",
+      "type": "Hackathon",
+      "department": ["Engineering", "Sustainability"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "All",
+      "year": ["1st year", "2nd year", "3rd year", "4th year"],
+      "lastDateToApply": "03-04",
+      "stipend": "Cash prizes",
+      "eligibility": "Engineering students and secondary school students worldwide",
+      "description": "A hackathon organized by UNESCO and WFEO, focusing on SDG 1: No Poverty, encouraging teams to create solutions for real-world scenarios.",
+      "requirements": [
+        "Team-based participation",
+        "Creation of a short video outlining the solution",
+        "Focus on poverty alleviation"
+      ],
+      "applicationLink": "https://www.wfeo.org/world-engineering-day-2025-hackathon/",
+      "category": "UNESCO",
+      "postedDate": "2024-10-05"
+    },
+    {
+      "id": "HAC009",
+      "title": "HackZurich 2025",
+      "type": "Hackathon",
+      "department": ["CSE", "IT", "Innovation"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "All",
+      "year": ["3rd year", "4th year"],
+      "lastDateToApply": "08-15",
+      "stipend": "Prizes and potential startup opportunities",
+      "eligibility": "Students and professionals worldwide",
+      "description": "Europe's largest hackathon held in Zurich, Switzerland, bringing together over 600 participants to develop innovative prototypes over a weekend.",
+      "requirements": [
+        "Team size: Typically 2-5 members",
+        "On-site participation",
+        "Development of functional prototypes"
+      ],
+      "applicationLink": "https://hackzurich.com/",
+      "category": "European",
+      "postedDate": "2025-06-01"
+    }
+  ]
+}    
     ]
   }
