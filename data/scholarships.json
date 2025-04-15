@@ -83,7 +83,92 @@
         "applicationLink": "https://unesco.org/women-in-science",
         "category": "Recommended",
         "postedDate": "2024-01-16"
-      }
-    ]
-  }
+      },
+      {
+      "id": "SCH005",
+      "title": "Adobe India’s Women in Tech Scholarship",
+      "type": "Scholarship",
+      "department": ["CSE", "IT", "ECE", "Data Science", "Math"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "Women",
+      "year": ["4th year"],
+      "lastDateToApply": "2025-05-30",
+      "stipend": "Full tuition fee funding and internship",
+      "eligibility": "Female students enrolled in 4-year BE/B.Tech or integrated ME/MS/MTech programs",
+      "description": "The Adobe India Women in Tech Scholarship provides funding for female students pursuing technical degrees in India and offers mentorship, internship, and access to career development opportunities.",
+      "requirements": [
+        "Must be enrolled in a 4-year BE/B.Tech program or an integrated ME/MS/MTech program",
+        "Should be pursuing a major in Computer Science, Engineering, Data Science, Electrical/Electronics Engineering, Math, or Computing",
+        "Must be completing the program in 2024"
+      ],
+      "applicationLink": "https://www.adobe.com/india/women-in-tech-scholarship",
+      "category": "Women",
+      "postedDate": "2024-02-01"
+    },
+    {
+      "id": "SCH006",
+      "title": "Nutanix Advancing Women in Technology Scholarship Program",
+      "type": "Scholarship",
+      "department": ["CSE", "ECE", "Software Engineering"],
+      "courseLevel": ["UG", "PG"],
+      "exclusive": "Women",
+      "year": ["All years"],
+      "lastDateToApply": "2025-03-01",
+      "stipend": "Up to $2,000",
+      "eligibility": "Students pursuing degrees in Computer Science, Computer Engineering, Electrical Engineering, or Software Engineering",
+      "description": "The Nutanix Advancing Women in Technology Scholarship supports women pursuing undergraduate or graduate degrees in technical fields.",
+      "requirements": [
+        "Must be enrolled as a full-time student",
+        "Must be pursuing a degree in Computer Science, Computer Engineering, Electrical Engineering, or Software Engineering",
+        "Minimum GPA of 3.0"
+      ],
+      "applicationLink": "https://www.nutanix.com/scholarship",
+      "category": "Women",
+      "postedDate": "2024-01-20"
+    },
+    {
+      "id": "SCH007",
+      "title": "Pragati Scholarship (Women)",
+      "type": "Scholarship",
+      "department": ["All Departments"],
+      "courseLevel": ["UG"],
+      "exclusive": "Women",
+      "year": ["All years"],
+      "lastDateToApply": "2025-06-30",
+      "stipend": "₹ 50,000",
+      "eligibility": "Female students pursuing technical education",
+      "description": "The Pragati Scholarship aims to assist meritorious women pursuing technical education from economically weaker sections of society.",
+      "requirements": [
+        "Female students pursuing technical education",
+        "From economically weaker sections"
+      ],
+      "applicationLink": "https://www.mhrd.gov.in/pragati-scholarship-scheme",
+      "category": "Women",
+      "postedDate": "2024-02-10"
+    },
+    {
+      "id": "SCH009",
+      "title": "Amazon Future Engineer Scholarship (Women)",
+      "type": "Scholarship",
+      "department": ["CSE", "IT", "ECE", "Software Engineering"],
+      "courseLevel": ["UG"],
+      "exclusive": "Women",
+      "year": ["1st year"],
+      "lastDateToApply": "2025-04-15",
+      "stipend": "INR 2,00,000 (Rs. 50,000 per year)",
+      "eligibility": "Female students pursuing B.E. or B.Tech in Computer Science or related fields",
+      "description": "The Amazon Future Engineer Scholarship supports first-year female students in India pursuing undergraduate degrees in Computer Science Engineering and related disciplines.",
+      "requirements": [
+        "Indian citizen",
+        "First-year students of B.E. or B.Tech in Computer Science or related fields",
+        "Annual family income less than INR 3.0 Lakh"
+      ],
+      "applicationLink": "https://www.amazon.com/futureengineer",
+      "category": "Women",
+      "postedDate": "2024-01-01"
+    },
+  ]
+}  
+    
+  
   
