@@ -1,46 +1,36 @@
-{
-    "research": [
-      {
-        "id": "RES001",
-        "title": "Microsoft Research Workshop",
-        "type": "Research",
-        "department": ["CSE", "IT"],
-        "courseLevel": ["PG", "PHD"],
-        "exclusive": "All",
-        "year": ["others"],
-        "lastDateToApply": "2025-04-20",
-        "stipend": "Fully Funded",
-        "eligibility": "PG & PhD Students",
-        "description": "Research workshop focusing on artificial intelligence and machine learning, hosted by Microsoft Research India.",
-        "requirements": [
-          "Strong research background",
-          "Publication experience preferred",
-          "Knowledge of AI/ML concepts"
-        ],
-        "applicationLink": "https://microsoft.com/research/workshop",
-        "category": "Fortune 100",
-        "postedDate": "2024-01-14"
-      },
-      {
-        "id": "RES002",
-        "title": "Civil Engineering Research Grant",
-        "type": "Research",
-        "department": ["CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["3rd year", "4th year"],
-        "lastDateToApply": "2025-04-15",
-        "stipend": "50,000 per month",
-        "eligibility": "3rd & 4th Year Civil Engineering Students",
-        "description": "Research opportunity in sustainable construction materials and methods, funded by the Ministry of Infrastructure.",
-        "requirements": [
-          "Strong academic background in civil engineering",
-          "Interest in sustainable construction",
-          "Basic knowledge of material testing"
-        ],
-        "applicationLink": "https://infrastructure.gov.in/grants",
-        "category": "Latest",
-        "postedDate": "2024-01-16"
-      }
-    ]
+[
+  {
+    "ID": "RES001",
+    "Title": "Microsoft Research Workshop",
+    "Type": "Research",
+    "Department": "CSE, IT",
+    "Course Level": "PG, PHD",
+    "Exclusive": "All",
+    "Year": "Others",
+    "Last Date To Apply": "2025-04-20",
+    "Stipend": "Fully Funded",
+    "Eligibility": "PG & PhD Students",
+    "Description": "Research workshop focusing on artificial intelligence and machine learning, hosted by Microsoft Research India.",
+    "Requirements": "Strong research background, Publication experience preferred, Knowledge of AI/ML concepts",
+    "Application Link": "Link",
+    "Category": "Fortune 100",
+    "Posted Date": "2024-01-14"
+  },
+  {
+    "ID": "RES002",
+    "Title": "Civil Engineering Research Grant",
+    "Type": "Research",
+    "Department": "CIVIL",
+    "Course Level": "UG, PG",
+    "Exclusive": "All",
+    "Year": "3rd year, 4th year",
+    "Last Date To Apply": "2025-04-15",
+    "Stipend": "50,000 per month",
+    "Eligibility": "3rd & 4th Year Civil Engineering Students",
+    "Description": "Research opportunity in sustainable construction materials and methods, funded by the Ministry of Infrastructure.",
+    "Requirements": "Strong academic background in civil engineering, Interest in sustainable construction, Basic knowledge of material testing",
+    "Application Link": "Link",
+    "Category": "Latest",
+    "Posted Date": "2024-01-16"
   }
+]
