@@ -1,8 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Repeto
 
-## Getting Started
+Repeto is a curated platform for discovering **high-quality, recurring opportunities** for B.Tech Computer Science students. Find the best scholarships, hackathons, research programs, open source projects, and internships—all in one place, updated and filtered for relevance and impact.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- **Curated Opportunities**: Only the best and most reputable scholarships, hackathons, research programs, open source contributions, and internships.
+- **For B.Tech CS Students**: All listings are relevant for Computer Science undergraduates.
+- **Recurring & Updated**: Focus on opportunities that repeat or are available every year/semester.
+- **Powerful Filtering**: Search and filter by department, year, type, exclusivity, and more.
+- **One-Stop Platform**: No more hunting across dozens of sites—Repeto brings it all together.
+
+---
+
+## 🎬 Demo
+
+![Repeto Demo](./repeto.gif)
+
+---
+
+## 🏁 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/repeto.git
+cd repeto
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
@@ -10,27 +38,34 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see Repeto in action.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🗂️ Opportunity Types
 
-## Learn More
+- **Scholarships**: Financial aid and merit-based awards.
+- **Hackathons**: Coding competitions and innovation sprints.
+- **Research**: Research internships, fellowships, and assistantships.
+- **Open Source**: Programs and projects for contributing to open source.
+- **Internships**: Paid and unpaid industry internships.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Why Repeto?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Quality Over Quantity**: Only high-quality, recurring opportunities are listed.
+- **No Spam**: No expired, scammy, or irrelevant listings.
+- **Student-Focused**: Built for and by students, with real needs in mind.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+We welcome contributions! Please open an issue or pull request if you have a new opportunity to add or want to improve the platform.
+
+---
+
+**Repeto** — Repeat the best, skip the rest.
