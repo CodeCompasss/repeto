@@ -1,5 +1,12 @@
 # Repeto
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/CodeCompasss/repeto?style=social" alt="GitHub Repo stars" />
+  <img src="https://img.shields.io/github/forks/CodeCompasss/repeto?style=social" alt="GitHub forks" />
+  <img src="https://img.shields.io/github/issues/CodeCompasss/repeto" alt="GitHub issues" />
+  <img src="https://img.shields.io/github/last-commit/CodeCompasss/repeto" alt="GitHub last commit" />
+</p>
+
 Repeto is a curated platform for discovering **high-quality, recurring opportunities** for B.Tech Computer Science students. Find the best scholarships, hackathons, research programs, open source projects, and internships—all in one place, updated and filtered for relevance and impact.
 
 ---

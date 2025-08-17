@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://codecompasss.github.io/repeto/
+
+# Sitemaps
+Sitemap: https://codecompasss.github.io/repeto/sitemap.xml
