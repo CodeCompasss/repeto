@@ -73,6 +73,18 @@ const Navbar = () => {
           </div>
         </div>
 
+        {/* ADD NEW+ Button (Desktop) */}
+        <div className="hidden md:flex ml-auto">
+          <a
+            href="https://docs.google.com/forms/d/YOUR_FORM_ID/viewform"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-black text-white rounded-3xl hover:bg-white hover:text-black border border-black transition font-semibold"
+          >
+            ADD NEW+
+          </a>
+        </div>
+
         {/* Hamburger Menu Button for Small Screens */}
         <button
           onClick={toggleMenu}
@@ -108,15 +120,16 @@ const Navbar = () => {
           menuOpen ? "block" : "hidden"
         } md:hidden absolute left-0 top-20 w-full space-y-2 bg-white text-center shadow-lg z-40 py-4`}
       >
-        {/* <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
-          Home
-        </Link>
-        <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
-          Campus
-        </Link>
-        <Link href="/" className="block px-4 py-2 text-black hover:bg-gray-100">
-          Calendar
-        </Link> */}
+        {/* ADD NEW+ Button inside Mobile Dropdown */}
+        <a
+          href="https://docs.google.com/forms/d/YOUR_FORM_ID/viewform"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block px-4 py-2 bg-black text-white rounded-3xl hover:bg-white hover:text-black border border-black transition font-semibold mx-4"
+        >
+          ADD NEW+
+        </a>
+
         <div className="relative text-center">
           {/* <button
             onClick={toggleDropdown}
@@ -160,13 +173,6 @@ const Navbar = () => {
             </div>
           )} */}
         </div>
-        {/* <button>
-        <Link href="/https://codecompasss.github.io/code_compass_india/">
-          <div className="w-[117px] h-[45px] bg-[#000000] rounded-3xl text-white font-davidLibre flex justify-center items-center text-[15.5px] hover:bg-white drop-shadow-lg hover:text-black">
-          Home
-          </div>
-        </Link>
-        </button> */}
       </div>
     </nav>
   );
