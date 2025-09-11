@@ -41,13 +41,13 @@ export default function OpportunityCard({ opportunity }: OpportunityCardProps) {
       </div>
       
       <div className="p-4">
-        <div className="flex flex-wrap gap-2 mb-4">
+         {/*<div className="flex flex-wrap gap-2 mb-4">
           {opportunity.department.map((dept) => (
             <span key={dept} className="px-2 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
               {dept}
             </span>
           ))}
-        </div>
+        </div>*/}
         
         <Link 
           href={opportunity.applicationLink}
