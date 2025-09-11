@@ -76,7 +76,7 @@ const Navbar = () => {
         {/* ADD NEW+ Button (Desktop) */}
         <div className="hidden md:flex ml-auto">
           <a
-            href="https://docs.google.com/forms/d/YOUR_FORM_ID/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeWusUIDiOLsRK4Wjnj0xuHuuHaOyKb7x_ItihLGA12IORzxw/viewform?usp=header/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 bg-black text-white rounded-3xl hover:bg-white hover:text-black border border-black transition font-semibold"
@@ -122,7 +122,7 @@ const Navbar = () => {
       >
         {/* ADD NEW+ Button inside Mobile Dropdown */}
         <a
-          href="https://docs.google.com/forms/d/YOUR_FORM_ID/viewform"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeWusUIDiOLsRK4Wjnj0xuHuuHaOyKb7x_ItihLGA12IORzxw/viewform?usp=header/viewform"
           target="_blank"
           rel="noopener noreferrer"
           className="block px-4 py-2 bg-black text-white rounded-3xl hover:bg-white hover:text-black border border-black transition font-semibold mx-4"
