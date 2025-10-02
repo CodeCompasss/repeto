@@ -1,109 +1,175 @@
 {
-    "others": [
-      {
-        "id": "OTH001",
-        "title": "Open Source Contribution Program",
-        "type": "Open Source",
-        "department": ["CSE", "IT"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["2nd year", "3rd year", "4th year"],
-        "lastDateToApply": "2025-07-15",
-        "stipend": "Certificate + Swag",
-        "eligibility": "All CS/IT Students",
-        "description": "Participate in open source development projects with mentorship from industry experts.",
-        "requirements": [
-          "Basic Git knowledge",
-          "Programming experience",
-          "Willingness to learn and contribute"
-        ],
-        "applicationLink": "https://opensourceprogram.org",
-        "category": "Recommended",
-        "postedDate": "2024-01-16"
-      },
-      {
-        "id": "OTH002",
-        "title": "Technical Writing Workshop",
-        "type": "Workshop",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG", "PG", "PHD"],
-        "exclusive": "All",
-        "year": ["1st year", "2nd year", "3rd year", "4th year", "others"],
-        "lastDateToApply": "2025-03-25",
-        "stipend": "Free Registration",
-        "eligibility": "All Engineering Students",
-        "description": "Learn technical writing skills from industry experts, with focus on documentation and technical blogging.",
-        "requirements": [
-          "Good English communication",
-          "Interest in technical writing",
-          "Laptop required"
-        ],
-        "applicationLink": "https://techwrite.workshop.com",
-        "category": "Latest",
-        "postedDate": "2024-01-17"
-      },
-      {
-        "id": "OTH003",
-        "title": "Industry Mentorship Program",
-        "type": "Mentorship",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["3rd year", "4th year"],
-        "lastDateToApply": "2025-04-10",
-        "stipend": "Non-paid",
-        "eligibility": "Final Year Students",
-        "description": "One-on-one mentorship program with industry leaders to guide career development and skill enhancement.",
-        "requirements": [
-          "Clear career goals",
-          "Commitment to attend monthly sessions",
-          "Strong academic background"
-        ],
-        "applicationLink": "https://mentorship.program.org",
-        "category": "Recommended",
-        "postedDate": "2024-01-15"
-      },
-      {
-        "id": "OTH004",
-        "title": "Product Management Bootcamp",
-        "type": "Training",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["3rd year", "4th year"],
-        "lastDateToApply": "2025-05-30",
-        "stipend": "Certification",
-        "eligibility": "Pre-final and Final Year Students",
-        "description": "Intensive bootcamp on product management fundamentals, including hands-on projects and case studies.",
-        "requirements": [
-          "Strong analytical skills",
-          "Good communication",
-          "Basic understanding of software development"
-        ],
-        "applicationLink": "https://pm-bootcamp.edu",
-        "category": "Popular",
-        "postedDate": "2024-01-16"
-      },
-      {
-        "id": "OTH005",
-        "title": "Leadership Development Program",
-        "type": "Training",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "Women",
-        "year": ["2nd year", "3rd year"],
-        "lastDateToApply": "2025-06-20",
-        "stipend": "Free Training",
-        "eligibility": "Female Students",
-        "description": "Comprehensive program focusing on developing leadership skills, personal branding, and career development.",
-        "requirements": [
-          "Strong academic record",
-          "Extra-curricular activities",
-          "Leadership potential"
-        ],
-        "applicationLink": "https://women-leadership.org",
-        "category": "Latest",
-        "postedDate": "2024-01-18"
-      }
-    ]
-  }
+  "others": [
+    {
+      "id": "OTH001",
+      "title": "Open Source Contribution Program",
+      "type": "Open Source",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "2nd year",
+        "3rd year",
+        "4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "Certificate + Swag",
+      "eligibility": "All CS/IT Students",
+      "description": "Participate in open source development projects with mentorship from industry experts.",
+      "requirements": [
+        "Basic Git knowledge",
+        "Programming experience",
+        "Willingness to learn and contribute"
+      ],
+      "applicationLink": "Link",
+      "category": "Recommended",
+      "postedDate": "2024-01-16"
+    },
+    {
+      "id": "OTH002",
+      "title": "Technical Writing Workshop",
+      "type": "Workshop",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG",
+        "PHD"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st year",
+        "2nd year",
+        "3rd year",
+        "4th year",
+        "others"
+      ],
+      "lastDateToApply": "",
+      "stipend": "Free Registration",
+      "eligibility": "All Engineering Students",
+      "description": "Learn technical writing skills from industry experts, with focus on documentation and technical blogging.",
+      "requirements": [
+        "Good English communication",
+        "Interest in technical writing",
+        "Laptop required"
+      ],
+      "applicationLink": "Link",
+      "category": "Latest",
+      "postedDate": "2024-01-17"
+    },
+    {
+      "id": "OTH003",
+      "title": "Industry Mentorship Program",
+      "type": "Mentorship",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd year",
+        "4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "Non-paid",
+      "eligibility": "Final Year Students",
+      "description": "One-on-one mentorship program with industry leaders to guide career development and skill enhancement.",
+      "requirements": [
+        "Clear career goals",
+        "Commitment to attend monthly sessions",
+        "Strong academic background"
+      ],
+      "applicationLink": "Link",
+      "category": "Recommended",
+      "postedDate": "2024-01-15"
+    },
+    {
+      "id": "OTH004",
+      "title": "Product Management Bootcamp",
+      "type": "Training",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd year",
+        "4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "Certification",
+      "eligibility": "Pre-final and Final Year Students",
+      "description": "Intensive bootcamp on product management fundamentals, including hands-on projects and case studies.",
+      "requirements": [
+        "Strong analytical skills",
+        "Good communication",
+        "Basic understanding of software development"
+      ],
+      "applicationLink": "Link",
+      "category": "Popular",
+      "postedDate": "2024-01-16"
+    },
+    {
+      "id": "OTH005",
+      "title": "Leadership Development Program",
+      "type": "Training",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "2nd year",
+        "3rd year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "Free Training",
+      "eligibility": "Female Students",
+      "description": "Comprehensive program focusing on developing leadership skills, personal branding, and career development.",
+      "requirements": [
+        "Strong academic record",
+        "Extra-curricular activities",
+        "Leadership potential"
+      ],
+      "applicationLink": "Link",
+      "category": "Latest",
+      "postedDate": "2024-01-18"
+    }
+  ]
+}

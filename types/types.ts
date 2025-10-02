@@ -12,6 +12,6 @@ export interface Opportunity {
     description: string;
     requirements: string[];
     applicationLink: string;
-    category: string;
-    postedDate: string;
+category: string | number
+    postedDate: string ;
   }

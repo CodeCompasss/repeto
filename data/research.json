@@ -1,46 +1,729 @@
 {
-    "research": [
-      {
-        "id": "RES001",
-        "title": "Microsoft Research Workshop",
-        "type": "Research",
-        "department": ["CSE", "IT"],
-        "courseLevel": ["PG", "PHD"],
-        "exclusive": "All",
-        "year": ["others"],
-        "lastDateToApply": "2025-04-20",
-        "stipend": "Fully Funded",
-        "eligibility": "PG & PhD Students",
-        "description": "Research workshop focusing on artificial intelligence and machine learning, hosted by Microsoft Research India.",
-        "requirements": [
-          "Strong research background",
-          "Publication experience preferred",
-          "Knowledge of AI/ML concepts"
-        ],
-        "applicationLink": "https://microsoft.com/research/workshop",
-        "category": "Fortune 100",
-        "postedDate": "2024-01-14"
-      },
-      {
-        "id": "RES002",
-        "title": "Civil Engineering Research Grant",
-        "type": "Research",
-        "department": ["CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["3rd year", "4th year"],
-        "lastDateToApply": "2025-04-15",
-        "stipend": "50,000 per month",
-        "eligibility": "3rd & 4th Year Civil Engineering Students",
-        "description": "Research opportunity in sustainable construction materials and methods, funded by the Ministry of Infrastructure.",
-        "requirements": [
-          "Strong academic background in civil engineering",
-          "Interest in sustainable construction",
-          "Basic knowledge of material testing"
-        ],
-        "applicationLink": "https://infrastructure.gov.in/grants",
-        "category": "Latest",
-        "postedDate": "2024-01-16"
-      }
-    ]
-  }
+  "research": [
+    {
+      "id": "RES001",
+      "title": "Science Academies' Summer Research Fellowship Programme (SRFP)",
+      "type": "Research",
+      "department": [
+        "All Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG",
+        "Teachers"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All undergraduate/postgraduate"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "UG, PG students and teachers interested in science research",
+      "description": "",
+      "requirements": [
+        "Varies (based on program)"
+      ],
+      "applicationLink": "TBD",
+      "category": "Research",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES002",
+      "title": "Visiting Students Research Programme (TIFR)",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "3rd/4th year BSc",
+        "Integrated MSc",
+        "MSc"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd and 4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd or 4th year science students in BSc, Integrated MSc, or MSc",
+      "description": "",
+      "requirements": [
+        "Varies"
+      ],
+      "applicationLink": "https://tifr.res.in",
+      "category": "Research",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES003",
+      "title": "IISc Summer Internship",
+      "type": "Research",
+      "department": [
+        "All Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG and PG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Undergraduate and postgraduate students",
+      "description": "",
+      "requirements": [
+        "Selection based on project"
+      ],
+      "applicationLink": "https://iisc.ac.in",
+      "category": "Research",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES004",
+      "title": "IPR Summer School",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "Final year MSc",
+        "BE",
+        "B.Tech"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Final or pre-final year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Final year MSc, BE, B.Tech students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES005",
+      "title": "DRDO Student Internship Scheme",
+      "type": "Research",
+      "department": [
+        "Engg/Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All years"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "B.Tech, B.Sc, M.Sc students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES006",
+      "title": "SPARK Summer Internship (IIT Roorkee)",
+      "type": "Research",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Undergraduate students with good academic record",
+      "description": "",
+      "requirements": [
+        "https://www.iitr.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES007",
+      "title": "SURE - Summer Undergraduate Research Exposure (IIT Hyderabad)",
+      "type": "Research",
+      "department": [
+        "Engg/Science"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG B.Tech",
+        "Integrated MSc",
+        "MA"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Undergraduate B.Tech, Integrated MSc, or MA students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES008",
+      "title": "National Initiative on Undergraduate Science (NIUS)",
+      "type": "Internship",
+      "department": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Astronomy"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "1st year undergraduate students in science fields",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES009",
+      "title": "IISER Pune Summer Internship",
+      "type": "Internship",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG 2nd year and above"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "UG students at IISER Pune",
+      "description": "",
+      "requirements": [
+        "https://iiserpune.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES010",
+      "title": "ISRO Summer Training Programme",
+      "type": "Internship",
+      "department": [
+        "Science/Engg"
+      ],
+      "courseLevel": [
+        "3rd/4th year BE",
+        "B.Tech",
+        "MSc"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd and 4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year engineering/science students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES011",
+      "title": "BARC Summer Training",
+      "type": "Internship",
+      "department": [
+        "Science/Engg"
+      ],
+      "courseLevel": [
+        "3rd/4th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd and 4th year students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year science/engineering students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES012",
+      "title": "SURGE - Summer Undergraduate Research (IIT Kanpur)",
+      "type": "Internship",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "4th/5th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "4th/5th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "4th/5th year science and engineering students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES013",
+      "title": "Summer Fellowship Programme (IIT Madras)",
+      "type": "Research",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "3rd/4th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year UG science and engineering students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES014",
+      "title": "SRFP Program (IASIS-INSA-NASI)",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG",
+        "PG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Undergraduate and postgraduate science students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES015",
+      "title": "VSRP Program (TIFR)",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "3rd/4th year BSc"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year BSc students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year BSc students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES016",
+      "title": "IISc Summer Internship Program",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG",
+        "PG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Undergraduate and postgraduate students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES017",
+      "title": "IPR Summer School",
+      "type": "Research",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "Final/Pre-final year MSc",
+        "BE",
+        "B.Tech"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Final/pre-final year science/engg"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "Final or pre-final year students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES018",
+      "title": "DRDO Student Internship Scheme",
+      "type": "Research",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Various"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "B.Tech, B.Sc, M.Sc students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES019",
+      "title": "SPARK Summer Internship (IIT Roorkee)",
+      "type": "Research",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "UG students with strong academic record",
+      "description": "",
+      "requirements": [
+        "https://www.iitr.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES020",
+      "title": "SURE Program (IIT Hyderabad)",
+      "type": "Research",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "UG B.Tech, integrated MSc, MA students",
+      "description": "",
+      "requirements": [
+        "TBD"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES021",
+      "title": "NISER Program",
+      "type": "Internship",
+      "department": [
+        "Pure Sciences"
+      ],
+      "courseLevel": [
+        "1st-year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st-year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "1st-year undergraduate pure science students",
+      "description": "",
+      "requirements": [
+        "https://niser.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES022",
+      "title": "IISER Pune Summer Internship",
+      "type": "Internship",
+      "department": [
+        "Science"
+      ],
+      "courseLevel": [
+        "UG 2nd year and above"
+      ],
+      "exclusive": "All",
+      "year": [
+        "UG students"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "2nd-year UG and above students",
+      "description": "",
+      "requirements": [
+        "https://iiserpune.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES023",
+      "title": "ISRO Internship Programs",
+      "type": "Internship",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "3rd/4th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd, 4th year BE/B.Tech or MSc students",
+      "description": "",
+      "requirements": [
+        "https://www.isro.gov.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES024",
+      "title": "BARC Summer Training",
+      "type": "Internship",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "3rd/4th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year science/engineering students",
+      "description": "",
+      "requirements": [
+        "https://www.barc.gov.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES025",
+      "title": "SURGE at IIT Kanpur",
+      "type": "Internship",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "4th/5th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "4th/5th year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "4th/5th year science & engineering students",
+      "description": "",
+      "requirements": [
+        "https://iitk.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES026",
+      "title": "Summer Fellowship Programme (IIT Madras)",
+      "type": "Research",
+      "department": [
+        "Science/Engineering"
+      ],
+      "courseLevel": [
+        "3rd/4th year UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year UG"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year science & engineering undergraduates",
+      "description": "",
+      "requirements": [
+        "https://iitm.ac.in"
+      ],
+      "applicationLink": "Research",
+      "category": 2025,
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES027",
+      "title": "Microsoft Research Workshop",
+      "type": "Research",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "PG",
+        "PhD"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Others"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "PG & PhD students with strong research background",
+      "description": "",
+      "requirements": [
+        "https://microsoft.com/research/workshop"
+      ],
+      "applicationLink": "Fortune 100",
+      "category": "2024-01-14",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "RES028",
+      "title": "Civil Engineering Research Grant",
+      "type": "Research",
+      "department": [
+        "Civil"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd/4th year"
+      ],
+      "lastDateToApply": "",
+      "stipend": "",
+      "eligibility": "3rd/4th year civil engineering students",
+      "description": "",
+      "requirements": [
+        "https://infrastructure.gov.in/grants"
+      ],
+      "applicationLink": "Latest",
+      "category": "2024-01-16",
+      "postedDate": "2025-17-08"
+    }
+  ]
+}

@@ -1,89 +1,619 @@
 {
-    "scholarships": [
-      {
-        "id": "SCH001",
-        "title": "Reliance Foundation Scholarship",
-        "type": "Scholarship",
-        "department": ["CSE", "IT", "ECE"],
-        "courseLevel": ["UG"],
-        "exclusive": "All",
-        "year": ["2nd year"],
-        "lastDateToApply": "2025-06-10",
-        "stipend": "6 Lakhs",
-        "eligibility": "2nd Years Only",
-        "description": "The Reliance Foundation Scholarship program aims to support meritorious students in pursuing their higher education in technology and engineering fields.",
-        "requirements": [
-          "Minimum CGPA of 8.0",
-          "No active backlogs",
-          "Family income below 8 lakhs per annum"
-        ],
-        "applicationLink": "https://reliancefoundation.org/scholarship",
-        "category": "Latest",
-        "postedDate": "2024-01-15"
-      },
-      {
-        "id": "SCH002",
-        "title": "Women Techmakers Fellowship",
-        "type": "Scholarship",
-        "department": ["CSE", "IT", "ECE", "EEE"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "Women",
-        "year": ["2nd year", "3rd year", "4th year"],
-        "lastDateToApply": "2025-03-15",
-        "stipend": "4 Lakhs",
-        "eligibility": "Female Students Only",
-        "description": "Google's Women Techmakers program provides scholarships to women studying computer science, computer engineering, or closely related technical fields.",
-        "requirements": [
-          "Strong academic performance",
-          "Leadership qualities",
-          "Active participation in computer science-related activities"
-        ],
-        "applicationLink": "https://www.womentechmakers.com/scholars",
-        "category": "Recommended",
-        "postedDate": "2024-01-12"
-      },
-      {
-        "id": "SCH003",
-        "title": "AICTE Smart India Fellowship",
-        "type": "Scholarship",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG"],
-        "exclusive": "All",
-        "year": ["3rd year"],
-        "lastDateToApply": "2025-03-01",
-        "stipend": "12,000 per month",
-        "eligibility": "3rd Year Students with Innovation Projects",
-        "description": "Fellowship program for students working on innovative projects that solve real-world problems.",
-        "requirements": [
-          "Innovative project idea",
-          "Letter of recommendation",
-          "CGPA > 7.5"
-        ],
-        "applicationLink": "https://aicte.gov.in/fellowship",
-        "category": "Recommended",
-        "postedDate": "2024-01-14"
-      },
-      {
-        "id": "SCH004",
-        "title": "UNESCO Women in Science Fellowship",
-        "type": "Scholarship",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["PG", "PHD"],
-        "exclusive": "Women",
-        "year": ["others"],
-        "lastDateToApply": "2025-06-30",
-        "stipend": "15 Lakhs",
-        "eligibility": "Female PG/PhD Students",
-        "description": "Fellowship program to support women researchers in STEM fields.",
-        "requirements": [
-          "Research proposal",
-          "Academic excellence",
-          "Letter of recommendation"
-        ],
-        "applicationLink": "https://unesco.org/women-in-science",
-        "category": "Recommended",
-        "postedDate": "2024-01-16"
-      }
-    ]
-  }
-  
+  "scholarships": [
+    {
+      "id": "SCH001",
+      "title": "Reliance Foundation Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "2nd year"
+      ],
+      "lastDateToApply": "10 Jun 2025",
+      "stipend": "₹6 Lakhs",
+      "eligibility": "2nd-year UG (CSE, IT, ECE), Min CGPA 8.0, No backlogs, Family income < ₹8L",
+      "description": "Supports meritorious students in tech & engineering",
+      "requirements": [
+        "Min CGPA 8.0",
+        "No active backlogs",
+        "Family income < ₹8L"
+      ],
+      "applicationLink": "https://reliancefoundation.org",
+      "category": "Latest",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH002",
+      "title": "Women Techmakers Fellowship",
+      "type": "Scholarship",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "2nd–4th year"
+      ],
+      "lastDateToApply": "15 Mar 2025",
+      "stipend": "₹4 Lakhs",
+      "eligibility": "Female students UG/PG (CSE, IT, ECE, EEE)",
+      "description": "Google program for women in tech",
+      "requirements": [
+        "Strong academics",
+        "leadership skills"
+      ],
+      "applicationLink": "https://developers.google.com/womentechmakers",
+      "category": "Recommended",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH003",
+      "title": "AICTE Smart India Fellowship",
+      "type": "Fellowship",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd year"
+      ],
+      "lastDateToApply": "01 Mar 2025",
+      "stipend": "₹12,000/month",
+      "eligibility": "3rd-year UG (CSE, IT, ECE, EEE, Mech, Civil)",
+      "description": "Fellowship for students with innovative projects",
+      "requirements": [
+        "Innovative project",
+        "CGPA > 7.5"
+      ],
+      "applicationLink": "https://sih.gov.in",
+      "category": "Recommended",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH004",
+      "title": "UNESCO Women in Science Fellowship",
+      "type": "Fellowship",
+      "department": [
+        "STEM"
+      ],
+      "courseLevel": [
+        "PG",
+        "PHD"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "Others"
+      ],
+      "lastDateToApply": "30 Jun 2025",
+      "stipend": "₹15 Lakhs",
+      "eligibility": "Female PG/PhD Students (STEM)",
+      "description": "Supports women in STEM research",
+      "requirements": [
+        "Research proposal",
+        "academic excellence"
+      ],
+      "applicationLink": "https://unesco.org",
+      "category": "Recommended",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH005",
+      "title": "Adobe India Women in Tech Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "Data Science",
+        "Math"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "Final year"
+      ],
+      "lastDateToApply": "30 May 2025",
+      "stipend": "Full tuition + internship",
+      "eligibility": "Female UG/PG final year",
+      "description": "Adobe’s scholarship + mentorship + internship",
+      "requirements": [
+        "Must be enrolled in BE/BTech or integrated MTech",
+        "Final year",
+        "Eligible majors"
+      ],
+      "applicationLink": "https://adobe.com/womenintech",
+      "category": "Women",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH006",
+      "title": "Nutanix Advancing Women in Tech",
+      "type": "Scholarship",
+      "department": [
+        "CS",
+        "CE",
+        "EE",
+        "SE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "01 Mar 2025",
+      "stipend": "Up to $2,000 + internship",
+      "eligibility": "Women UG/PG (CS, CE, EE, SE), GPA > 3.0",
+      "description": "Scholarship + internship for women in tech",
+      "requirements": [
+        "Must be full-time",
+        "GPA > 3.0"
+      ],
+      "applicationLink": "https://nutanix.com/scholarship",
+      "category": "Women",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH007",
+      "title": "Pragati Scholarship (Women)",
+      "type": "Scholarship",
+      "department": [
+        "Technical Education"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "All years"
+      ],
+      "lastDateToApply": "30 Jun 2025",
+      "stipend": "₹50,000",
+      "eligibility": "Female UG, EWS",
+      "description": "For meritorious women from EWS",
+      "requirements": [
+        "EWS criteria"
+      ],
+      "applicationLink": "https://aicte-pragati.in",
+      "category": "Women",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH009",
+      "title": "Amazon Future Engineer Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "CS/IT"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "1st year"
+      ],
+      "lastDateToApply": "15 Apr 2025",
+      "stipend": "₹2 Lakhs (₹50k/year)",
+      "eligibility": "Female 1st-year UG (CS/related), Income < ₹3L",
+      "description": "Supports women in CS/IT",
+      "requirements": [
+        "Income < ₹3L",
+        "1st year"
+      ],
+      "applicationLink": "https://amazonfutureengineer.com",
+      "category": "Women",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH010",
+      "title": "Kotak Kanya Scholarship 2025-26",
+      "type": "Scholarship",
+      "department": [
+        "All"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Aug 2025",
+      "stipend": "₹1.5 Lakh/year",
+      "eligibility": "Female UG, ≥75% in 12th, Family income < ₹6L",
+      "description": "For women in professional courses",
+      "requirements": [
+        "Academic excellence",
+        "Income < ₹6L"
+      ],
+      "applicationLink": "https://kotak.com/kanyascholarship",
+      "category": "Govt/Tech",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH011",
+      "title": "Hero FinCorp Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Finance"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Jul 2025",
+      "stipend": "₹40k–₹50k/year",
+      "eligibility": "UG finance-related, ≥80% (70% PwD), Income < ₹6L",
+      "description": "For finance-domain UG students",
+      "requirements": [
+        "Academic excellence",
+        "Tech skills"
+      ],
+      "applicationLink": "https://herofincorp.com/scholarship",
+      "category": "Finance",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH012",
+      "title": "B-Airtel Foundation Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st year"
+      ],
+      "lastDateToApply": "31 Jul 2025",
+      "stipend": "Full fees + laptop",
+      "eligibility": "1st-year UG, Income < ₹8.5L, preference to girls, orphans, transgender",
+      "description": "Covers entire education",
+      "requirements": [
+        "Merit + income based"
+      ],
+      "applicationLink": "https://airtel.com/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH013",
+      "title": "HDFC Bank Parivartan ECSS Program",
+      "type": "Scholarship",
+      "department": [
+        "All"
+      ],
+      "courseLevel": [
+        "School",
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Others"
+      ],
+      "lastDateToApply": "04 Sep 2025",
+      "stipend": "Up to ₹75k",
+      "eligibility": "≥55%, Income < ₹2.5L",
+      "description": "For economically weaker students",
+      "requirements": [
+        "Income < ₹2.5L"
+      ],
+      "applicationLink": "https://hdfcbank.com/ecss",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH014",
+      "title": "Muskaan Scholarship Program (VCPL)",
+      "type": "Scholarship",
+      "department": [
+        "School"
+      ],
+      "courseLevel": [
+        "School"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Class 9–12"
+      ],
+      "lastDateToApply": "30 Sep 2025",
+      "stipend": "₹12,000/year + mentorship",
+      "eligibility": "Class 9–12, specific states, Income < ₹8L",
+      "description": "Academic and mentorship support",
+      "requirements": [
+        "Mentorship + financial aid"
+      ],
+      "applicationLink": "https://vcpl.org/muskaan",
+      "category": "School",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH015",
+      "title": "Bharati Airtel Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st year"
+      ],
+      "lastDateToApply": "31 Jul 2025",
+      "stipend": "Full fees + laptop",
+      "eligibility": "UG first-year, Income criteria",
+      "description": "Comprehensive educational support",
+      "requirements": [
+        "Merit + income based"
+      ],
+      "applicationLink": "https://airtel.com/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH016",
+      "title": "Louis Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Engineering",
+        "IT",
+        "Science"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Jul 2025",
+      "stipend": "Varies",
+      "eligibility": "BE, BTech, Diploma, ITI, MTech, MSc",
+      "description": "For technical courses",
+      "requirements": [
+        "Merit-based"
+      ],
+      "applicationLink": "https://unstop.com/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH017",
+      "title": "HOPE Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Engineering"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "1st year"
+      ],
+      "lastDateToApply": "12 Jul 2025",
+      "stipend": "Varies",
+      "eligibility": "First-year female engineering students",
+      "description": "For female engineers in 1st year",
+      "requirements": [
+        "Diversity initiative"
+      ],
+      "applicationLink": "https://unstop.com/hope",
+      "category": "Women",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH018",
+      "title": "Hero Scholarship (Ramakant Hunjal)",
+      "type": "Scholarship",
+      "department": [
+        "Finance"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Jul 2025",
+      "stipend": "₹40k–₹5.5L/year",
+      "eligibility": "UG finance-related courses",
+      "description": "Merit-based aid for finance specialization",
+      "requirements": [
+        "Coding + finance test"
+      ],
+      "applicationLink": "https://goldmansachs.com/scholarship",
+      "category": "Finance",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH019",
+      "title": "Mirae Asset Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "All"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "06 Jul 2025",
+      "stipend": "Varies",
+      "eligibility": "UG/PG multiple disciplines",
+      "description": "Merit-based, multi-discipline",
+      "requirements": [
+        "Coding + aptitude"
+      ],
+      "applicationLink": "https://miraeasset.com/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH020",
+      "title": "Kotak Junior Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "School"
+      ],
+      "courseLevel": [
+        "Class 11–12"
+      ],
+      "exclusive": "All",
+      "year": [
+        "Others"
+      ],
+      "lastDateToApply": "30 Jun 2025",
+      "stipend": "₹73,500/21 months",
+      "eligibility": "Class 11–12 students",
+      "description": "Financial assistance for school students",
+      "requirements": [
+        "Merit-based"
+      ],
+      "applicationLink": "https://kotak.com/juniorscholarship",
+      "category": "School",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH021",
+      "title": "Satya Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "All"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Aug 2025",
+      "stipend": "100% tuition fees",
+      "eligibility": "Students in Ludhiana colleges",
+      "description": "Local-level fee coverage",
+      "requirements": [
+        "Merit-based"
+      ],
+      "applicationLink": "https://satya.org/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH022",
+      "title": "IDFC Bank MBA Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "Finance"
+      ],
+      "courseLevel": [
+        "MBA"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "30 Jun 2025",
+      "stipend": "Varies",
+      "eligibility": "MBA students",
+      "description": "Financial aid for MBA",
+      "requirements": [
+        "Merit + need-based"
+      ],
+      "applicationLink": "https://idfcfirstbank.com/scholarship",
+      "category": "Finance",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH023",
+      "title": "Kind Circle Scholarship",
+      "type": "Scholarship",
+      "department": [
+        "All"
+      ],
+      "courseLevel": [
+        "School–PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "All"
+      ],
+      "lastDateToApply": "31 Dec 2025",
+      "stipend": "Varies",
+      "eligibility": "Class 1–PG students",
+      "description": "Wide eligibility range",
+      "requirements": [
+        "Merit + need-based"
+      ],
+      "applicationLink": "https://kindcircle.org/scholarship",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "SCH024",
+      "title": "Blue Star Foundation (Mohan Advani)",
+      "type": "Scholarship",
+      "department": [
+        "Architecture",
+        "Engineering",
+        "Diploma"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st–2nd year"
+      ],
+      "lastDateToApply": "15 Jul 2025",
+      "stipend": "Up to ₹1 Lakh",
+      "eligibility": "1st–2nd-year B.Arch, B.E., B.Tech, Diploma",
+      "description": "Merit-based technical education aid",
+      "requirements": [
+        "OSS contribution internship"
+      ],
+      "applicationLink": "https://bluestarfoundation.org",
+      "category": "General",
+      "postedDate": "2025-17-08"
+    }
+  ]
+}

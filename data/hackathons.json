@@ -1,67 +1,789 @@
 {
-    "hackathons": [
-      {
-        "id": "HAC001",
-        "title": "National Hackathon Challenge",
-        "type": "Hackathon",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["1st year", "2nd year", "3rd year", "4th year"],
-        "lastDateToApply": "2025-05-01",
-        "stipend": "Prizes worth 10 Lakhs",
-        "eligibility": "All Students",
-        "description": "National level hackathon focusing on solving real-world problems using technology and innovation.",
-        "requirements": [
-          "Team size: 2-4 members",
-          "Cross-department teams allowed",
-          "Original project ideas"
-        ],
-        "applicationLink": "https://nationalhackathon.in",
-        "category": "Popular",
-        "postedDate": "2024-01-16"
-      },
-      {
-        "id": "HAC002",
-        "title": "Intel Hardware Design Challenge",
-        "type": "Hackathon",
-        "department": ["ECE", "EEE"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["2nd year", "3rd year", "4th year"],
-        "lastDateToApply": "2025-05-20",
-        "stipend": "Prizes up to 5 Lakhs",
-        "eligibility": "ECE/EEE Students",
-        "description": "Hardware design competition focusing on IoT and embedded systems innovation.",
-        "requirements": [
-          "Knowledge of embedded systems",
-          "Hardware design experience",
-          "Team size: 2-3 members"
-        ],
-        "applicationLink": "https://intel.com/design-challenge",
-        "category": "Fortune 100",
-        "postedDate": "2024-01-15"
-      },
-      {
-        "id": "HAC003",
-        "title": "Smart India Hackathon 2025",
-        "type": "Hackathon",
-        "department": ["CSE", "IT", "ECE", "EEE", "MECH", "CIVIL"],
-        "courseLevel": ["UG", "PG"],
-        "exclusive": "All",
-        "year": ["1st year", "2nd year", "3rd year", "4th year"],
-        "lastDateToApply": "2025-05-15",
-        "stipend": "Prizes worth 15 Lakhs",
-        "eligibility": "All Engineering Students",
-        "description": "National level hackathon to solve problems proposed by various government ministries and industries.",
-        "requirements": [
-          "Team size: 6 members",
-          "At least 2 female team members",
-          "One unique solution per team"
-        ],
-        "applicationLink": "https://sih.gov.in/2025",
-        "category": "Latest",
-        "postedDate": "2024-01-16"
-      }
-    ]
-  }
+  "hackathons": [
+    {
+      "id": "HAC001",
+      "title": "Google Girl Hackathon",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "2025-02-09",
+      "stipend": "—",
+      "eligibility": "Women in tech, students",
+      "description": "Google’s women-focused coding hackathon around Women’s Day",
+      "requirements": [
+        "Coding skills",
+        "student status"
+      ],
+      "applicationLink": "https://rsvp.withgoogle.com/events/girl-hackathon-2025/home",
+      "category": "Diversity Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC002",
+      "title": "Google Cloud Hackathons",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students, developers",
+      "description": "“Build for India” & “Solve for India” themes",
+      "requirements": [
+        "Cloud tech knowledge"
+      ],
+      "applicationLink": "https://cloudonair.withgoogle.com/events/build-multi-agent-systems-with-the-agent-dev-kit-hackathon",
+      "category": "Open Innovation",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC003",
+      "title": "Adobe Gen Solve",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "Adobe technical hackathon",
+      "requirements": [
+        "Problem-solving",
+        "coding"
+      ],
+      "applicationLink": "https://www.geeksforgeeks.org/hackathon/adobe-gensolve-innovate-to-impact",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC004",
+      "title": "Adobe Cod Diva",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Women in tech",
+      "description": "Diversity coding competition (Mar/Apr)",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://unstop.com/hackathons/adobe-india-hackathon-adobe-1483364",
+      "category": "Diversity Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC005",
+      "title": "Adobe Women in Technology Scholarship",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Women CS students",
+      "description": "Scholarship + research internship (Mar/Apr)",
+      "requirements": [
+        "Academics",
+        "research interest"
+      ],
+      "applicationLink": "https://www.adobe.com/uk/about-adobe/corporate-responsibility/youth-creativity/scholarship-programs.html",
+      "category": "Scholarship",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC006",
+      "title": "Flipkart GRID",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "2025-06-30",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "3-track tech competition (Jun/Jul)",
+      "requirements": [
+        "Coding/tech project skills"
+      ],
+      "applicationLink": "https://mycareernet.in/mycareernet/contests/Flipkart-Flipkart-GRiD-7-0--234",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC007",
+      "title": "Flipkart Runway",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [
+        "2nd year"
+      ],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "2nd-year female students",
+      "description": "Early talent hiring program (Feb)",
+      "requirements": [
+        "Student status"
+      ],
+      "applicationLink": "https://unstop.com/competitions/flipkart-runway-season-5-flipkart-1410891",
+      "category": "Early Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC008",
+      "title": "Flipkart Girls Wanna Code",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "2025-01-27",
+      "stipend": "₹1,00,000",
+      "eligibility": "Female students",
+      "description": "Mentorship + hiring opportunity (March)",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://unstop.com/hackathons/flipkart-girls-wanna-code-60-flipkart-1349594",
+      "category": "Diversity Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC009",
+      "title": "JP Morgan Code for Good",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "₹50,000/month",
+      "eligibility": "Students",
+      "description": "Recruitment hackathon + ₹14–17 LPA CTC",
+      "requirements": [
+        "Coding skills",
+        "teamwork"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC010",
+      "title": "Uber HackTag",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "March event on Unstop",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC011",
+      "title": "Myntra HackerRamp",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "Overall + female diversity round",
+      "requirements": [
+        "Coding & innovation"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC012",
+      "title": "Amazon HackOn",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "Technical Amazon hackathon",
+      "requirements": [
+        "Coding expertise"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC013",
+      "title": "Amazon ML Summer School",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "ML learning & project program",
+      "requirements": [
+        "Programming",
+        "ML knowledge"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Learning/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC014",
+      "title": "Amazon SMBhav Hackathon",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "Dec innovation challenge",
+      "requirements": [
+        "Problem-solving"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Open Innovation",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC015",
+      "title": "Smart India Hackathon",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "EEE",
+        "ECE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "All India students",
+      "description": "Large govt hackathon (Mar/Apr)",
+      "requirements": [
+        "Teamwork",
+        "innovation"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "National/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC016",
+      "title": "Walmart SparkPlug",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Selected colleges (mostly NITs)",
+      "description": "Sept hackathon",
+      "requirements": [
+        "Student status"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring/Event",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC017",
+      "title": "Walmart CodeHers",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Women in tech",
+      "description": "March diversity hiring comp.",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Diversity Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC018",
+      "title": "Amex Cod Street",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Others",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Students",
+      "description": "Recruitment hackathon",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC019",
+      "title": "Amex Makeathon",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "Women",
+      "year": [],
+      "lastDateToApply": "—",
+      "stipend": "—",
+      "eligibility": "Women in tech",
+      "description": "Mar/Apr diversity hiring",
+      "requirements": [
+        "Coding skills"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Diversity Hiring",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC020",
+      "title": "National Hackathon Challenge",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-05-01",
+      "stipend": "Prizes worth ₹10 Lakhs",
+      "eligibility": "All Students",
+      "description": "National level hackathon focusing on solving real-world problems using technology and innovation.",
+      "requirements": [
+        "Team size: 2-4 members",
+        "Cross-department teams allowed",
+        "Original project ideas"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Popular",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC021",
+      "title": "Intel Hardware Design Challenge",
+      "type": "Hackathon",
+      "department": [
+        "ECE",
+        "EEE"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-05-20",
+      "stipend": "Prizes up to ₹5 Lakhs",
+      "eligibility": "ECE/EEE Students",
+      "description": "Hardware design competition focusing on IoT and embedded systems innovation.",
+      "requirements": [
+        "Knowledge of embedded systems",
+        "Hardware design experience",
+        "Team size: 2-3 members"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Fortune 100",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC022",
+      "title": "Smart India Hackathon 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "ECE",
+        "EEE",
+        "MECH",
+        "CIVIL"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-05-15",
+      "stipend": "Prizes worth ₹15 Lakhs",
+      "eligibility": "All Engineering Students",
+      "description": "National level hackathon to solve problems proposed by various government ministries and industries.",
+      "requirements": [
+        "Team size: 6 members",
+        "At least 2 female team members",
+        "One unique solution per team"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Latest",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC023",
+      "title": "Mercuria Hackathon Singapore 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "Data Science",
+        "AI/ML"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-07-03",
+      "stipend": "Internship opportunities and prizes",
+      "eligibility": "Students in CS, Data Science, or related fields",
+      "description": "A 48-hour in-person hackathon at Marina Bay Sands, Singapore, focusing on global shipping, digital security, and environmental sustainability.",
+      "requirements": [
+        "Individual applications only",
+        "Teams formed by organizers",
+        "In-person participation"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "International",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC024",
+      "title": "MEGA Hackathon 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "Economics",
+        "Infrastructure"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-10-03",
+      "stipend": "$291,250 in prizes",
+      "eligibility": "Ages 13+ worldwide",
+      "description": "Online hackathon integrating computer science, STEM, economics, and infrastructure, aimed at advancing human development.",
+      "requirements": [
+        "Team size: Flexible",
+        "Open to high school & college students",
+        "Focus on sustainable development"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Global",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC025",
+      "title": "Global AI Hackathon 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "AI/ML",
+        "Education"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-02-27",
+      "stipend": "Trip to MIT AI & Education Summit",
+      "eligibility": "All ages worldwide",
+      "description": "Virtual hackathon hosted by MIT RAISE, encouraging participants to build AI apps aligned with UN Sustainable Development Goals.",
+      "requirements": [
+        "Use of MIT App Inventor",
+        "Focus on social impact",
+        "Submission of AI-based applications"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Educational",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC026",
+      "title": "NextStep Hacks 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "Accessibility"
+      ],
+      "courseLevel": [
+        "UG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-03-14",
+      "stipend": "$419,600 in prizes",
+      "eligibility": "Students aged 13-20 worldwide",
+      "description": "Online hackathon focusing on solutions that empower people with disabilities, promoting inclusivity and accessibility.",
+      "requirements": [
+        "Team size: Flexible",
+        "Projects aimed at assistive technologies",
+        "Participation in workshops"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "Inclusive",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC027",
+      "title": "World Engineering Day Hackathon 2025",
+      "type": "Hackathon",
+      "department": [
+        "Engineering",
+        "Sustainability"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "1st",
+        "2nd",
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-03-04",
+      "stipend": "Cash prizes",
+      "eligibility": "Engineering & secondary students worldwide",
+      "description": "Hackathon organized by UNESCO & WFEO on SDG 1: No Poverty, creating solutions for real-world scenarios.",
+      "requirements": [
+        "Team-based participation",
+        "Short solution video",
+        "Focus on poverty alleviation"
+      ],
+      "applicationLink": "https://cloud.google.com/blog/topics/developers-practitioners/join-the-agent-development-kit-hackathon-with-google-cloud",
+      "category": "UNESCO",
+      "postedDate": "2025-17-08"
+    },
+    {
+      "id": "HAC028",
+      "title": "HackZurich 2025",
+      "type": "Hackathon",
+      "department": [
+        "CSE",
+        "IT",
+        "Innovation"
+      ],
+      "courseLevel": [
+        "UG",
+        "PG"
+      ],
+      "exclusive": "All",
+      "year": [
+        "3rd",
+        "4th year"
+      ],
+      "lastDateToApply": "2025-08-15",
+      "stipend": "Prizes & startup opportunities",
+      "eligibility": "Students & professionals worldwide",
+      "description": "Europe’s largest hackathon in Zurich, with 600+ participants developing innovative prototypes over a weekend.",
+      "requirements": [
+        "Team size: 2-5 members",
+        "On-site participation",
+        "Functional prototype development"
+      ],
+      "applicationLink": "https://rsvp.withgoogle.com/events/girl-hackathon-2025/home",
+      "category": "European",
+      "postedDate": "2025-17-08"
+    }
+  ]
+}
