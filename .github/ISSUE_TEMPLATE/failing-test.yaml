@@ -1,6 +1,6 @@
 name: Failing Test
 
-description: Report continuously failing tests or jobs in the CI pipeline.
+description: Report continuously failing tests or CI pipeline jobs in the web development workflow.
 
 labels: 
   - kind/failing-test
@@ -9,9 +9,10 @@ body:
   - type: textarea
     id: jobs
     attributes:
-      label: Which jobs are failing?
+      label: Which CI jobs are failing?
       description: |
-        Please use this template for submitting reports about tests or jobs that are continuously failing in the CI pipeline. Provide clear details so the issue can be investigated and resolved promptly.
+        Use this template to report failing tests or CI/CD jobs in the web development pipeline. 
+        Provide clear details so the issue can be investigated and resolved efficiently.
     validations:
       required: true
 
@@ -19,6 +20,8 @@ body:
     id: tests
     attributes:
       label: Which tests are failing?
+      description: |
+        List the specific tests that are failing. Include test suite names, files, or affected components.
     validations:
       required: true
 
@@ -26,32 +29,56 @@ body:
     id: since
     attributes:
       label: Since when has it been failing?
+      description: |
+        Specify when the test failures started. If possible, mention any related commits, merges, or environment changes.
     validations:
       required: true
 
   - type: input
-    id: testgrid
+    id: ciLogs
     attributes:
-      label: Link to Test Results
+      label: Link to CI/CD Logs or Test Results
+      description: |
+        Provide a link to CI logs, GitHub Actions, Jenkins, CircleCI, or any test report dashboard.
 
   - type: textarea
     id: reason
     attributes:
       label: Reason for failure (if known)
       description: |
-        If possible, provide the root cause of the failure. This can include logs, error messages, or insights into what caused the test to fail.
+        If possible, provide insights into the root cause of the failure, such as error messages, log outputs, or relevant code changes.
   
+  - type: textarea
+    id: environment
+    attributes:
+      label: Test Environment Details
+      description: |
+        Provide environment details like framework versions, dependencies, browser information (for frontend tests), or API configurations.
+      value: |
+        <details>
+        
+        ```console
+        Frontend: React 18 / Next.js 14
+        Backend: Node.js 18 / Express.js
+        Database: PostgreSQL 15
+        Testing Framework: Jest / Cypress / Playwright
+        CI/CD Platform: GitHub Actions / Vercel / Netlify
+        ```
+
+        </details>
+
   - type: textarea
     id: additional
     attributes:
       label: Any additional information?
       description: |
-        Include any other relevant details that could help diagnose or resolve the issue, such as changes to the environment or recent updates to the codebase.
+        Include other relevant details that could help diagnose the issue, such as recent code changes, dependency updates, or infrastructure modifications.
 
   - type: textarea
-    id: sigs
+    id: teams
     attributes:
-      label: Relevant Teams/Departments
+      label: Relevant Teams or Developers
       description: |
-        If applicable, specify the teams or departments (e.g., DevOps, QA, etc.) who should be aware of or help with resolving this issue.
-      value: /team
+        If applicable, mention the teams or developers responsible for the affected tests or CI/CD jobs.
+      value: |
+        /team-frontend /team-backend /devops

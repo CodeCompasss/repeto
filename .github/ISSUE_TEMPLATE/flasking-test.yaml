@@ -1,69 +1,102 @@
-name: Failing Test
+name: Flaky Test Report
 
-description: Report continuously failing tests or jobs in the CI pipeline.
+description: Report tests in the Flask application that pass inconsistently or do not correctly validate functionality.
 
-labels: ["kind/failing-test"]
+labels: ["kind/flaky-test"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        # Failing Test Report
+        # ⚠️ Flaky Test Report
 
-        Please provide details about failing tests or jobs in the CI pipeline so they can be investigated and resolved promptly.
+        Use this form to report tests that **pass inconsistently** or **do not properly test the required functionality** in the Flask application.  
+        Providing detailed information will help diagnose and fix unreliable tests.  
 
   - type: textarea
-    id: jobs
+    id: flaky-tests
     attributes:
-      label: Which jobs are failing?
+      label: Which tests are flaky?
       description: |
-        Provide details about the CI jobs that are failing. Include relevant logs or error messages if available.
+        List the flaky tests with details:
+        - **Type**: Unit, Integration, Functional, API tests
+        - **Framework**: Pytest, Unittest, Nose, Behave
+        - **Affected Component**: Routes, Middleware, Database Models, Blueprints
+        Provide test file names, module paths, or logs if applicable.
     validations:
       required: true
 
   - type: textarea
-    id: tests
+    id: flaky-behavior
     attributes:
-      label: Which tests are failing?
+      label: How does the test behave inconsistently?
       description: |
-        List the specific tests that are failing. Provide context about the module, function, or feature they belong to.
+        Describe the flaky behavior:
+        - Does it pass sometimes and fail other times? (e.g., dependent on execution order or timing)
+        - Does it return different results on the same input?
+        - Does it pass but fail to check the intended functionality?
+        Provide logs, screenshots, or patterns if possible.
     validations:
       required: true
 
   - type: textarea
-    id: since
+    id: failure-timeline
     attributes:
-      label: Since when has it been failing?
+      label: Since when has this issue occurred?
       description: |
-        Provide a rough timeline for when the failures started occurring. This helps identify potential changes that may have introduced the issue.
+        Provide a rough timeline for when the flaky behavior started:
+        - After a specific commit? (`Commit hash: abc123`)
+        - After an update to dependencies? (`Flask 3.0, SQLAlchemy 2.0`)
+        - After an infrastructure change? (`New database, server migration`)
+        This helps identify potential causes.
     validations:
       required: true
 
   - type: input
-    id: testgrid
+    id: ci-test-results
     attributes:
-      label: Link to Test Results
+      label: Link to CI/CD Logs or Test Reports
       description: |
-        If available, provide a link to the CI logs, test reports, or dashboards where the failures can be reviewed.
+        If available, provide a link to the CI/CD logs, failed test reports, or dashboards.
+        Examples:
+        - GitHub Actions: `https://github.com/org/repo/actions/runs/...`
+        - Jenkins: `https://jenkins.example.com/job/...`
+        - Pytest HTML Reports: `https://ci.example.com/flask-test-results/...`
 
   - type: textarea
-    id: reason
+    id: suspected-reason
     attributes:
-      label: Reason for failure (if known)
+      label: Possible cause (if known)
       description: |
-        If you have insights into why the tests are failing, please share them. This can include logs, error messages, or recent code changes.
-  
+        If you suspect a reason for the flaky behavior, describe it here.  
+        - **Timing issues**: API responses, async operations, race conditions  
+        - **Environment-dependent failures**: Different results on local vs. CI  
+        - **External dependencies**: Database, cache, external APIs  
+        Provide logs, screenshots, or any relevant debugging information.
+
   - type: textarea
-    id: additional
+    id: additional-info
     attributes:
-      label: Any additional information?
+      label: Additional Information
       description: |
-        Include any other relevant details that could help diagnose or resolve the issue, such as changes to the environment or recent updates to the codebase.
-  
+        Include any extra details that might help in debugging.  
+        Examples:
+        - Specific environments affected (Local, Staging, Production)
+        - Python version (`Python 3.10, 3.11`)
+        - Database logs (`PostgreSQL, MySQL, SQLite`)
+        - Server logs (`Gunicorn, Nginx, Flask Debugger`)
+        - API response issues (timeouts, inconsistent errors)
+
   - type: textarea
-    id: sigs
+    id: relevant-teams
     attributes:
       label: Relevant Teams/Departments
       description: |
-        If applicable, specify the teams or departments (e.g., DevOps, QA, etc.) who should be aware of or help with resolving this issue.
+        Tag the teams that should investigate this issue.  
+        Example:  
+        ```
+        @backend-team  
+        @devops  
+        @qa  
+        ```
       value: /team
