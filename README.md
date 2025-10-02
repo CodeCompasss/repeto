@@ -1,7 +1,4 @@
 
-# 📌 README.md (root)
-
-````markdown
 # Repeto
 
 <p align="center">
@@ -108,4 +105,14 @@ yarn build && yarn start
 
 We welcome contributions from everyone! 🎉
 Please check our [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## 📜 Code of Conduct
+
+This project follows the [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you agree to uphold it.
+
+---
+
+**Repeto** — *Repeat the best, skip the rest.*
 

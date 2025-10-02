@@ -1,6 +1,8 @@
+
+
 # CONTRIBUTING.md
 
-```markdown
+````markdown
 # Contributing to Repeto
 
 First off, thank you for considering contributing to **Repeto** 💙.  
@@ -25,15 +27,15 @@ We welcome all contributions — bug fixes, new features, documentation improvem
    ```bash
    git clone https://github.com/your-username/repeto.git
    cd repeto
-   ```
+````
 
-2. **Install Dependencies**  
+2. **Install Dependencies**
 
    ```bash
    npm install
    ```
 
-3. **Run the Dev Server**  
+3. **Run the Dev Server**
 
    ```bash
    npm run dev
@@ -45,8 +47,10 @@ We welcome all contributions — bug fixes, new features, documentation improvem
 
 ## 📊 Adding Data
 
-1. Add your opportunities in **Excel**.  
-2. Save as **CSV** in the `convert/` folder.  
+1. Add your opportunities in **Excel**.
+
+2. Save as **CSV** in the `convert/` folder.
+
 3. Convert to JSON with:
 
    ```bash
@@ -74,14 +78,25 @@ We welcome all contributions — bug fixes, new features, documentation improvem
    git push origin feature/my-new-feature
    ```
 
-3. Open a Pull Request on the main repo.  
+3. Open a Pull Request on the main repo.
 
 ---
 
 ## ✅ Pull Request Guidelines
 
-- Keep PRs small and focused.  
-- Write clear commit messages.  
-- Ensure the project builds before submitting.  
-- If adding data, ensure JSON structure matches existing datasets.  
+* Keep PRs small and focused.
+* Write clear commit messages.
+* Ensure the project builds before submitting.
+* If adding data, ensure JSON structure matches existing datasets.
+
+---
+
+## 📜 Code of Conduct
+
+This project follows our [Code of Conduct](./CODE_OF_CONDUCT.md).
+By contributing, you agree to respect and follow it.
+
+---
+
+💡 *Thank you for helping make Repeto better for students worldwide!*
 
