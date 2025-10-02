@@ -1,3 +1,7 @@
+
+# 📌 README.md (root)
+
+````markdown
 # Repeto
 
 <p align="center">
@@ -7,7 +11,8 @@
   <img src="https://img.shields.io/github/last-commit/CodeCompasss/repeto" alt="GitHub last commit" />
 </p>
 
-Repeto is a curated platform for discovering **high-quality, recurring opportunities** for B.Tech Computer Science students. Find the best scholarships, hackathons, research programs, open source projects, and internships—all in one place, updated and filtered for relevance and impact.
+Repeto is a curated platform for discovering **high-quality, recurring opportunities** for B.Tech Computer Science students.  
+Find the best scholarships, hackathons, research programs, open source projects, and internships—all in one place.
 
 ---
 
@@ -32,10 +37,10 @@ Repeto is a curated platform for discovering **high-quality, recurring opportuni
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/repeto.git
+git clone https://github.com/CodeCompasss/repeto.git
 cd repeto
 npm install
-```
+````
 
 Start the development server:
 
@@ -47,32 +52,60 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to see Repeto in action.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📊 Adding Your Data
+
+We support **Excel → CSV → JSON** conversion for adding opportunities.
+
+1. Add your data in an **Excel sheet**.
+2. Save it as **CSV** (e.g., `scholarships.csv`, `hackathons.csv`) inside the `convert/` folder.
+3. Convert it to JSON:
+
+   ```bash
+   cd convert
+   node repeoecitnv.js scholarships.csv
+   node repeoecitnv.js hackathons.csv
+   ```
+
+   JSON files will be generated.
+4. Move them into the `data/` folder (e.g., `data/scholarships.json`).
+
+---
+
+## ⚡ Build for Production
+
+```bash
+npm run build
+npm start
+# or
+yarn build && yarn start
+```
 
 ---
 
 ## 🗂️ Opportunity Types
 
-- **Scholarships**: Financial aid and merit-based awards.
-- **Hackathons**: Coding competitions and innovation sprints.
-- **Research**: Research internships, fellowships, and assistantships.
-- **Open Source**: Programs and projects for contributing to open source.
-- **Internships**: Paid and unpaid industry internships.
+* **Scholarships**: Financial aid and merit-based awards.
+* **Hackathons**: Coding competitions and innovation sprints.
+* **Research**: Research internships, fellowships, and assistantships.
+* **Open Source**: Programs and projects for contributing to open source.
+* **Internships**: Paid and unpaid industry internships.
 
 ---
 
 ## ✨ Why Repeto?
 
-- **Quality Over Quantity**: Only high-quality, recurring opportunities are listed.
-- **No Spam**: No expired, scammy, or irrelevant listings.
-- **Student-Focused**: Built for and by students, with real needs in mind.
+* **Quality Over Quantity** – Only high-quality, recurring opportunities are listed.
+* **No Spam** – No expired, scammy, or irrelevant listings.
+* **Student-Focused** – Built for and by students.
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Please open an issue or pull request if you have a new opportunity to add or want to improve the platform.
+We welcome contributions from everyone! 🎉
+Please check our [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
----
-
-**Repeto** — Repeat the best, skip the rest.
