@@ -1,6 +1,6 @@
 name: Feature Request
 
-description: Suggest a new feature or enhancement for the software.
+description: Suggest a new feature or enhancement for the web application.
 
 labels: ["enhancement", "new"]
 
@@ -8,66 +8,66 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Thank you for opening a feature request.
+        # 🚀 Thank you for opening a feature request!
 
-        This issue tracker is reserved for feature requests relating to the core functionality of the software.
+        This issue tracker is dedicated to feature requests that enhance the core functionality of our web application.
 
-        For general usage questions, please refer to the software's official documentation or community forums.
+        **Before submitting:**
+        - Check the existing issues to avoid duplicates.
+        - Ensure your request aligns with the project's roadmap.
+        - If your request involves third-party services (e.g., API integrations), consider contacting the relevant provider.
 
-        ## If your feature request relates to:
-        * **Software Providers or Specific Integrations**: Please contact the respective support team or open a new request in their respective repositories.
-  
-  - type: textarea
-    id: software-version
+  - type: input
+    id: web-app-version
     attributes:
-      label: Software Version
-      description: Run `<software-name> --version` to show the version, and paste the result below. If you're not using the latest version, please check if something related to your request has already been implemented in a later version.
-      render: shell
-      placeholder: ...output of `<software-name> --version`...
-    validations:
-      required: true
+      label: Web Application Version
+      description: If applicable, specify the version of the web application where you need this feature.
+      placeholder: Example: v1.3.2 (or "latest" if using a cloud-based app)
 
   - type: textarea
     id: use-case
     attributes:
-      label: Use Cases
+      label: Use Case
       description: |
-        To properly evaluate a feature request, it's essential to understand the use cases.
-        Please describe below the _end goal_ you are trying to achieve that has led you to request this feature.
-        Focus on the problem, not the solution—details on the problem will help us better understand your request.
+        Describe the problem this feature would solve. 
+        - Focus on the **end goal** rather than the technical solution.
+        - Explain how users would benefit from this feature in a real-world scenario.
     validations:
       required: true
 
   - type: textarea
-    id: attempted-solutions
+    id: current-limitations
     attributes:
-      label: Attempted Solutions
+      label: Current Limitations
       description: |
-        If you've already tried to solve the problem with the existing features and found limitations, please describe them here.
-        Ideally, provide real examples of configurations, commands, and the results. Please omit sensitive information like passwords.
+        Have you tried alternative solutions with the existing features? If so, what limitations did you face?
+        - Provide real examples of how the current setup is insufficient.
+        - Include screenshots, code snippets, or UI issues if relevant.
     validations:
       required: true
 
   - type: textarea
-    id: proposal
+    id: proposed-solution
     attributes:
-      label: Proposal
+      label: Proposed Solution (Optional)
       description: |
-        If you have a suggestion for how to address the problem through a new feature or change to the software, please describe it here.
-        Including specific examples of configuration files, commands, or user interfaces would be helpful.
-        If you're unsure about some aspects, don't worry! The development team will evaluate and suggest modifications if needed.
+        If you have an idea for how this feature should be implemented, describe it here.
+        - How would it work in the UI or API?
+        - Would it require new components, endpoints, or configurations?
+        - If unsure, just explain the ideal experience and we'll determine feasibility.
     validations:
       required: false
 
   - type: textarea
     id: references
     attributes:
-      label: References
+      label: Related Issues or References
       description: |
-        Are there any related issues (either open or closed) that could provide context for your feature request? Please list them here.
-        For example:
+        Are there similar feature requests or discussions? Provide links or references.
+        Example:
         ```
-          - #123
+        - #124 (Similar request)
+        - [Figma Prototype](https://www.figma.com/...)
         ```
     validations:
       required: false
@@ -75,4 +75,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Note:** If the submit button is disabled, please ensure you've filled out all required fields, including the **Title** of the request.
+        **🔹 Note:** If the submit button is disabled, ensure all required fields are filled, including the **Title**.

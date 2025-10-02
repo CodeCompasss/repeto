@@ -1,6 +1,6 @@
 name: Bug Report
 
-description: Report an issue encountered while using the software.
+description: Report an issue encountered while using the web application.
 
 labels: 
   - kind/bug
@@ -11,8 +11,8 @@ body:
     attributes:
       label: What happened?
       description: |
-        Describe the issue you encountered in detail. Providing clear and concise information helps in addressing the issue faster.
-        If this is a security-related issue, please disclose it privately via the appropriate security channels (if applicable).
+        Describe the issue in detail, including any incorrect behavior, broken UI elements, or unexpected functionality. 
+        If this is a security-related issue, please report it privately via the appropriate security channels (if applicable).
     validations:
       required: true
 
@@ -20,7 +20,7 @@ body:
     id: expected
     attributes:
       label: What did you expect to happen?
-      description: Explain the behavior you expected from the software.
+      description: Explain the expected behavior of the web application.
     validations:
       required: true
 
@@ -28,73 +28,101 @@ body:
     id: repro
     attributes:
       label: Steps to Reproduce
-      description: Provide the steps to reproduce the issue as minimally and precisely as possible.
+      description: Provide step-by-step instructions to reproduce the issue.
+      value: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See the error
     validations:
       required: true
 
   - type: textarea
+    id: browserInfo
+    attributes:
+      label: Browser and Device Information
+      description: |
+        Specify the browser (Chrome, Firefox, Edge, Safari) and version, as well as the device type (Desktop, Mobile, Tablet).
+      value: |
+        <details>
+        
+        ```console
+        # Example:
+        Browser: Chrome 120.0.0.0
+        OS: Windows 11 / macOS 14.0 / Ubuntu 22.04
+        Device: Desktop / Mobile / Tablet
+        ```
+
+        </details>
+
+  - type: textarea
     id: softwareVersion
     attributes:
-      label: Software Version
+      label: Application Version
       description: |
-        Specify the version of the software where you encountered this issue. If applicable, provide details on the branch, build, or release version.
+        Specify the version of the web application where you encountered this issue. If applicable, include branch, deployment stage (staging, production), or release version.
 
   - type: textarea
     id: environment
     attributes:
       label: Environment Details
       description: |
-        Provide details about the environment where this issue occurred. This could include operating system, platform, cloud provider, or any other relevant context.
+        Provide any relevant environment details such as API endpoints, database versions, or hosting provider.
       value: |
         <details>
         
         ```console
-        # On Linux/MacOS:
-        $ uname -a
-        $ cat /etc/os-release
-        # paste output here
-        
-        # On Windows:
-        C:\> wmic os get Caption, Version, BuildNumber, OSArchitecture
-        # paste output here
+        # Example:
+        Frontend: Next.js 14.0.2
+        Backend: Node.js 18 / Express.js
+        Database: PostgreSQL 15 / Firebase
+        Hosting: Vercel / Netlify / AWS
         ```
-        
+
         </details>
 
   - type: textarea
     id: installTools
     attributes:
-      label: Installation Method
-      description: Specify the installation tools or package managers used (if applicable).
+      label: Installation or Deployment Method
+      description: Specify how the web app is deployed (e.g., Vercel, Netlify, Docker, custom server setup).
 
   - type: textarea
     id: dependencies
     attributes:
-      label: Related Dependencies or Plugins
+      label: Related Dependencies or Packages
       description: |
-        List any plugins, modules, or dependencies (and their versions) that might relate to this issue.
+        List any third-party libraries, plugins, or frameworks that might be related to the issue.
       value: |
         <details>
         
+        ```json
+        {
+          "react": "18.2.0",
+          "next": "14.0.2",
+          "tailwindcss": "3.4.1"
+        }
+        ```
+
         </details>
 
   - type: textarea
     id: logs
     attributes:
-      label: Logs, Errors, or Debugging Output
+      label: Console Errors or Network Logs
       description: |
-        Provide any relevant logs, stack traces, or debugging output that can help diagnose the issue.
+        Provide any browser console errors, API response errors, or logs from the network tab that could help debug the issue.
       value: |
         <details>
         
         ```console
-        # Paste logs or errors here.
+        # Paste relevant logs or errors here.
         ```
-        
+
         </details>
 
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
-      description: Include any other details that might help diagnose the issue.
+      description: Include any other information that might help diagnose the issue (e.g., screenshots, recordings, related issues).
